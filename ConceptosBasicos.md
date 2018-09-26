@@ -27,3 +27,22 @@ Ej: **Texto a mostrarOtro texto a mostrar**
 
 Al terminar cada **Print()** Python hace un salto de linea:
 **Print("_Texto a mostrar_")**.
+**Print("_Otro texto a mostrar_")**.
+
+Ej:**Texto a mostrar
+
+   Otro texto a mostrar**
+
+## Expresion de comparacion ##
+
+Ademas de los numeros y textos, Python introduce las constantes true y false
+
+Algunas de sus expresiones son:
+
+a == b ||	a es igual a b
+
+a != b ||	a es distinto de b
+
+a < b	|| a es menor que b
+
+a <= b ||	a es menor o igual que b
