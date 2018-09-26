@@ -46,3 +46,20 @@ a != b ||	a es distinto de b
 a < b	|| a es menor que b
 
 a <= b ||	a es menor o igual que b
+
+a > b	|| a es mayor que b
+
+a >= b ||	a es mayor o igual que b
+
+## Operadores logicos ##
+
+Como se puede operar entre números mediante las operaciones de suma, resta, etc., también existen tres operadores lógicos para combinar expresiones booleanas: and (y), or (o) y not (no).
+
+
+Algunos ejemplos:
+
+a and b  || 	El resultado es True solamente si a es True y b es True de lo contrario el resultado es False
+
+a or b  ||	 El resultado es True si a es True o b es True de lo contrario el resultado es False
+
+not a	 ||  El resultado es True si a es False de lo contrario el resultado es False
