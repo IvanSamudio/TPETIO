@@ -13,16 +13,16 @@ La instrucción **FOR** es utilizada para acotar un bloque de sentencias que ten
 ### Ejemplos: ###
 **A)** Escribiendo un bloque que calcula la suma de número que van desde 2 hasta 10, asumiendo que el valor inicial de la variable que guarda el resultado es cero.
 
-`    
-      resultado = 0
+
+`      resultado = 0
 
       for i in range(2,11):
 
       resultado +=i
 
-      print("La suma dá " + str(resultado))
+      print("La suma dá " + str(resultado)) `
 
-`
+
 
 ## Instrucción while ##
 La instrucción **WHILE** es utilizada para controlar un ciclo repetivo de instrucciones, bajo un sistema de condicional. Su sintaxis es:
@@ -34,7 +34,7 @@ La instrucción **WHILE** es utilizada para controlar un ciclo repetivo de instr
 ### Ejemplos: ###
 **A)** Genere un bloque  que utilice la instrucción while para sumar los números enteros desde el 2 hasta el 10. Su ponga que inicialmente el valor de la variable que guardará el resultado vale 0.
 
-`   
+
 
     resultado = 0
 
@@ -47,5 +47,3 @@ La instrucción **WHILE** es utilizada para controlar un ciclo repetivo de instr
     i +=1
 
     print("La suma dá " + str(resultado))
-
-`
