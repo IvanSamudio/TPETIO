@@ -19,3 +19,28 @@ Para crear una instancia (objeto) de esta clase, haremos lo siguiente:
 ![imagen en Markdown](images/instanciaJorge.png)
 
 Esto significa que hemos creado un nuevo objeto jorge del tipo Person. Date cuenta que para crear un objeto solo debemos escribir el nombre de la clase, seguido de unos paréntesis.
+
+## Atributos ##
+
+Los atributos son como propiedades que queremos añadir a la clase (tipo). Por ejemplo, para nuestra clase *Person*, vamos a añadir dos atributos: name y school, tal que así:
+
+![imagen en Markdown](images/atributosA.png)
+
+Ahora, vamos a crear un nuevo objeto del tipo *Person* con más detalle, completando estos atributos que acabamos de añadir:
+
+![imagen en Markdown](images/atributosB.png)
+
+## Métodos ##
+Los métodos son cómo funciones en **Python**, ya que se definen con la palabra clave def y cuentan con el mismo formato que las funciones. En nuestra clase, vamos a definir un método que imprima el nombre (name) y la escuela (school) de una persona (*Person*). La clase se verá de la siguiente manera:
+
+![imagen en Markdown](images/métodos.png)
+
+## Inicialización ##
+
+
+En la sección anterior, hemos inicializado name y school, dándoles un valor vacío ''. Pero hay una forma más elegante de inicializar variables con sus valores predeterminados. El inicializador es un método especial, con nombre __init__ (el método se considera especial y será tratado de forma especial, es por eso que tiene subrayados dobles al principio y al final).
+
+Vamos a modificar el programa anterior para utilizar el inicializador. En este caso, el programa se verá como sigue:
+
+
+![imagen en Markdown](images/Inicialización.png)
