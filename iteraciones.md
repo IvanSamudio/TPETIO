@@ -14,13 +14,13 @@ La instrucción **FOR** es utilizada para acotar un bloque de sentencias que ten
 **A)** Escribiendo un bloque que calcula la suma de número que van desde 2 hasta 10, asumiendo que el valor inicial de la variable que guarda el resultado es cero.
 
 
-`      resultado = 0
+      resultado = 0
 
       for i in range(2,11):
 
       resultado +=i
 
-      print("La suma dá " + str(resultado)) `
+      print("La suma dá " + str(resultado))
 
 
 
